@@ -69,7 +69,7 @@ public class AlienController {
 	@RequestMapping("/aliens")
 	@ResponseBody
 	public String getAliens() {
-		logger.info("getAliens method called.........");
+		logger.info("getAliens method called...........");
 		return alienRepo.findAll().toString(); //..toString() returns data as object format
 	}
 	
